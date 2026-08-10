@@ -1,6 +1,7 @@
 package junit1erapruebaTest;
 
 import java.math.BigDecimal;
+import java.math.RoundingMode;
 
 public class MoneyUtil {
 
@@ -15,7 +16,7 @@ public class MoneyUtil {
             symbol = "-" + symbol;
             money = money * (-1);
         }
-        BigDecimal rounded = BigDecimal.valueOf(money).setScale(2, BigDecimal.ROUND_HALF_UP);
+        BigDecimal rounded = BigDecimal.valueOf(money).setScale(2, RoundingMode.HALF_UP);
         return symbol + rounded;
     }
 }
