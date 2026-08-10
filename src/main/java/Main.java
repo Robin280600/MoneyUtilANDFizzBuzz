@@ -1,4 +1,4 @@
-import junit1erapruebaTest.MoneyUtil;
+import junit1eraprueba.MoneyUtil;
 
 public class Main {
     public static void main(String[] args) {

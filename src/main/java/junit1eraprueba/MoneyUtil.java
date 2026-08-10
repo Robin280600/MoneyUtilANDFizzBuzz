@@ -1,4 +1,4 @@
-package junit1erapruebaTest;
+package junit1eraprueba;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;
