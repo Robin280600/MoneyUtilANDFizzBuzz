@@ -1,4 +1,4 @@
-package junit1eraprueba;
+package junit1erapruebaTest;
 
 import org.junit.Assert;
 import org.junit.Test;
