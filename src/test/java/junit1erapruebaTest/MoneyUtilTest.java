@@ -1,5 +1,6 @@
 package junit1erapruebaTest;
 
+import junit1eraprueba.MoneyUtil;
 import org.junit.Assert;
 import org.junit.Test;
 
